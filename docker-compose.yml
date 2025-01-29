@@ -102,7 +102,7 @@ services:
       - "tumlab.local:192.168.4.1"
     environment:
       KEYCLOAK_CLIENT_ID: sifrontend
-      KEYCLOAK_CLIENT_SECRET: OjGtlZtSzyb6TXFZlrANYhK7QtSPzSsE
+      KEYCLOAK_CLIENT_SECRET: IZkocsNiVzNKeYk9OGOpyJWQnICR8Xqb
       KEYCLOAK_HOST: http://tumlab.local:8080/auth
       KEYCLOAK_REALM: aulasvallebilinguismo
       NEXT_PUBLIC_DEFAULT_AUTH_PROVIDER: keycloak
