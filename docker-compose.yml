@@ -65,7 +65,7 @@ services:
       - "host.docker.internal:host-gateway"
       - "tumlab.local:192.168.4.1"
     environment:
-      JWKS_URI: http://tumlab.local:8080/auth/realms/bilinguismovalle/protocol/openid-connect/certs
+      JWKS_URI: http://tumlab.local:8080/auth/realms/aulasvallebilinguismo/protocol/openid-connect/certs
       DB_HOST: host.docker.internal
       DB_PORT: 3306
       DB_USER: root
@@ -79,7 +79,7 @@ services:
       KEYCLOAK_API_URL: /admin/realms/aulasvallebilinguismo
       KEYCLOAK_BASE_URL: http://tumlab.local:8080/auth
       KEYCLOAK_CLIENT_ID: client-api
-      KEYCLOAK_CLIENT_SECRET: ZwwyVH63X1HfSOsvcLSNxoK4xLjuwHYg
+      KEYCLOAK_CLIENT_SECRET: ybIHHoNUC91kEJyYqOCocB7pH3ji9OiV
       KEYCLOAK_GET_TOKEN_URL: /realms/aulasvallebilinguismo/protocol/openid-connect/token
       OVERRIDE_DB_HOST: host.docker.internal
       OVERRIDE_DB_PASSWORD: Tumlab2022*
